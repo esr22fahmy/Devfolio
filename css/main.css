@@ -80,18 +80,39 @@ a{
 .nav-item:hover .line_link{
     width: 63%;
 }
+
 .special .line_link{
     width: 63%;
-
     height: 0.1rem;
     background-color: white;
-
     position: relative;
     left: 0.5rem;
     top: -0.2rem;
     
 
 }
+
+@media (max-width: 700px){
+
+    
+
+.nav-item:hover .line_link{
+    width: 20% !important;
+}
+
+.special .line_link{
+    width: 0% !important;
+    height: 0.1rem;
+    background-color: white;
+    position: relative;
+    left: 0.5rem;
+    top: -0.2rem;
+    
+
+}
+
+}
+
 
 /* size small navbar */
 .navbar span {
